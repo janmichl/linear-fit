@@ -11,8 +11,6 @@ def main():
 
     #data
     b = b.reshape( ( len( b ), 1 ) )
-
-    #measurements
     x = x.reshape( ( len( x ), 1 ) )
     A = np.hstack( ( x, np.ones( ( x.shape[0], 1 ) ) ) )
     a1, a0 = np.linalg.lstsq( A, b )[0]
