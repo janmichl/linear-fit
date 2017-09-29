@@ -1,10 +1,9 @@
 Linear-fit
 ==========
 
-Script for fitting data to an affine function model.  
+Script for fitting an affine function model to the data.  
 
 Example
 =======
 
-Affine fit
 ![Alt text](media/linear_fit.png?raw=true "Affine fit")
